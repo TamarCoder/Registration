@@ -1,11 +1,13 @@
 import Image from "next/image";
-import RegitrationWin from "./componetns/RegistartionWin/regitrationWin";
+import RegistrationWin from "./components/Registration/RegistrationWin";
+
+
 
 export default function Home() {
   return (
     <div>
       <main className="main_container">
-         <RegitrationWin />
+          <RegistrationWin/>
       </main>
 
     </div>
